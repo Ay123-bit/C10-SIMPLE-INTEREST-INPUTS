@@ -1,0 +1,16 @@
+//INPUT
+3000
+3
+2
+#include<stdio.h>
+int main(){
+    float p,t,r,si;
+    scanf("%f\n", &p);
+    scanf("%f\n", &t);
+    scanf("%f\n", &r);
+    si = p*t*r/100;
+    printf("The simple interest is :%f\n", si);
+
+}
+//OUTPUT
+The simple interest is :180.000000
