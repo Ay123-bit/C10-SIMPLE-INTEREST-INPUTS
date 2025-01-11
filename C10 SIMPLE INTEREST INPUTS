@@ -1,16 +1,22 @@
-//INPUT
-3000
-3
-2
+//INPUT 
+Enter the principal amount: 2000
+Enter the time duration: 1
+Enter the rate of interst: 10
 #include<stdio.h>
 int main(){
     float p,t,r,si;
-    scanf("%f\n", &p);
-    scanf("%f\n", &t);
-    scanf("%f\n", &r);
+    printf("Enter the principal amount: ");
+    scanf("%f", &p);
+    printf("Enter the time duration: ");
+    scanf("%f", &t);
+    printf("Enter the rate of interst: ");
+    scanf("%f", &r);
     si = p*t*r/100;
-    printf("The simple interest is :%f\n", si);
+    printf("The simple interest is : %f\n", si);
 
 }
 //OUTPUT
-The simple interest is :180.000000
+Enter the principal amount: 2000
+Enter the time duration: 1
+Enter the rate of interst: 10
+The simple interest is : 200.000000
